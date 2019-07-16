@@ -3,11 +3,11 @@ import numpy as np
 import random
 
 
-# Print all states
 directions = ['LEFT', 'DOWN', 'RIGHT', 'UP']
 Q = {}
 
 
+# Print all states
 def printQ():
     lastKey = 0
     first = True
